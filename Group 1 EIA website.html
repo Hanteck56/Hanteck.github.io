@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .Title h1{
+        color: darksalmon;
+        font-size: 3vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    body {
+        background-color: rgb(246, 249, 250);
+    }
+
+    p.welcome {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2vw;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1vw;
+        background-color: bisque;
+
+    }
+
+    .header h2:hover {
+        scale: 115%;
+    }
+
+    .header h2{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 2vw;
+        color: rgb(80, 186, 186);
+    }
+
+    .intro {
+        display: flex;
+        justify-content: center;
+        margin-left: 1.5vw;
+    }
+
+    .intro img {
+        width: 35vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .intro img:hover { 
+        scale: 105%;
+    }
+
+    .Titleobjective {
+        display: flex;
+        justify-content: flex-start;
+        background-color: bisque;
+        margin-top: 1vw;
+        font-size: 1.2vw;
+    }
+
+    .Titleobjective h2:hover {
+        scale: 115%;
+    }
+
+    .Titleobjective h2 {
+        margin-left: 1vw;
+        color: rgb(80, 186, 186);
+    
+    }
+    .objective img {
+        margin-top: 2vw;
+        width: 25vw;
+        align-self: flex-start;
+    }
+
+    .objective {
+        display: inline-block;
+        align-items: center;
+        margin-left: 2.4vw;
+        margin-right: 2.4vw;
+    }
+
+    .objective p {
+        font-size: 2vw;
+        width: 25vw;
+        text-align: justify;
+    }
+
+    .visionandmissiontext p {
+        width: 90vw;
+        border: 1vw solid rgb(25, 211, 25);
+        padding: 1vw;
+        margin: 1vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdowntext {
+        display: none;
+        position: absolute;
+        background-color: antiquewhite;
+        min-width: 1vw;
+        box-shadow: 0px 8px 16px 0px;
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .dropdown:hover .dropdowntext {
+        display: block;
+        width: max-content;
+        white-space: nowrap;
+        opacity: 1;
+    }
+
+    .dropdowntext h4{
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: rgb(80, 186, 186);
+    }
+
+    .dropdowntext h4:hover{
+        background-color: aliceblue
+    }
+
+    .visionandmission {
+        display: flex;
+        justify-content: flex-start;
+        background-color: bisque;
+        margin-top: 1vw;
+        font-size: 1.2vw;
+    }
+
+    .visionandmission h2 {
+        margin-left: 1vw;
+        color: rgb(80, 186, 186);
+    }
+
+    .visionandmission h2:hover {
+        scale: 115%;
+    }
+
+    .ourservice {
+        display: flex;
+        justify-content: flex-start;
+        background-color: bisque;
+        margin-top: 1vw;
+    }
+
+    .ourservice h2 {
+        margin-left: 1vw;
+        color: rgb(80, 186, 186);
+        font-size: 2vw;
+        
+    }
+
+    .ourservice h2:hover {
+        scale: 115%;
+    }
+
+    .ourseviceclass {
+        font-size: 1.5vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1vw;
+    }
+
+    .ourseviceclass th{
+	    color:#fff;
+	    text-align:center;
+	    background-color:#68ed47;
+    }
+
+    .ourseviceclass td{
+	    background-color:#8bff85;
+    }
+
+    .ourseviceclass th:hover{
+	    opacity:0.5;
+    }
+
+</style>
+    
+</head>
+<body>
+    <div class="umlogo" href="https://www.um.edu.my/index"><img src="https://www.um.edu.my/images/img-logo-UM.png" alt=""></a>
+    <div class="header">
+        <div class="dropdown">
+            <h2>About Us</h2>
+            <div class="dropdowntext">
+                <h4>History</h4>
+                <h4>Achievement</h4>
+            </div>
+        </div>
+            <h2>Home</h2>
+        <div class="dropdown">    
+            <h2>Service</h2>
+            <div class="dropdowntext">
+                <h4>Environmental Impact Assessments (EIA)</h4>
+                <h4>Training Program</h4>
+            </div>
+        </div>
+        <div class="dropdown">
+            <h2>Equipment Sales</h2>
+            <div class="dropdowntext">
+                <h4>Vane Anemometer</h4>
+                <h4>Air Quality Monitor</h4>
+                <h4>Sound Level Meter</h4>
+                <h4>Underground water detector</h4>
+                <h4>Autogated White Phosphor Night Vision Binocular - Optics</h4>
+                <h4>Core sampling kit</h4>
+                <h4>Earth Augers TR 1551</h4>
+            </div>
+        </div>    
+            
+            <h2>Contact</h2>
+        
+    </div>
+    <div class="Title"><h1>Welcome to PJ Environmental Consultants SDN. BHD.</h1></div>
+    <div class="intro">
+        <div class="introp1"> <img  src="https://miro.medium.com/v2/resize:fit:850/1*MrJPeSqRC048Sb0gKQfxxw.jpeg" alt=""></div>
+        <div class="welcome"><p class="welcome">"Greetings from PJ Environmental Consultants Sdn. Bhd., your committed environmental stewardship partner! Comprehensive Environmental Impact Assessments (EIA), state-of-the-art Industrial Environmental Treatment Solutions (IETS), and custom training programmes are our areas of expertise. Our goal is to equip organisations with sustainable practises so that business and the environment can coexist together. One small step at a time, we hope to create a greener tomorrow via our dedication to quality and innovation. Check out our offerings and come along on our path to a more environmentally responsible future!"</p></div>
+        <div class="introp2"> <img  src="https://media.homeinphuket.com/uploads/2022/12/15/d135ef75a9a77d1ba5732647eabf88dd80d1ecfb.jpg"></div>
+    </div>  
+    <div class="Titleobjective">
+        <h2>Objective</h2>
+    </div>
+    <div class="objective">
+        <div class="objective 1">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRMmWvChkW8wb9Dz1NrowK6HxTmA0CNyxSmW5rCqvQlsbl_HfM" alt="">
+            <p>i. To assess the significant effects of your project or development proposal on the environment.</p>
+        </div>
+        <div class="objective 2">
+            <img src="https://images.pexels.com/photos/355948/pexels-photo-355948.jpeg" alt="">
+            <p>ii. To provide effective guidance and solution in environmental management for our clients.</p>
+        </div>
+        <div class="objective 3">
+            <img src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p>iii. To provide extraordinary learning experience for industry personal in Environmental Management</p>
+        </div> 
+    </div>
+    <div class="visionandmission">
+        <h2>Vision & Mission</h2>
+    </div>
+    <div class="visionandmissiontext">
+        <p>To lead by example at PJ Environmental Consultants SDN. BHD., establishing new benchmarks for quality and creativity. By adhering to sustainable practices and constant improvement, we hope to positively affect our stakeholders, the environment, and society as a whole.</p>
+        <p>Our goal at PJ Environmental Consultants SDN. BHD. is to provide outstanding service that goes above and beyond for our clients. Our staff is committed to cultivating a culture of cooperation, diversity, and honesty. By utilising state-of-the-art technology, ethical business methods, and a customer-focused approach, our goal is to make a positive impact on the development and welfare of worldwide communities.</p>
+    </div>
+    <div class="ourservice">
+        <h2>Our Service</h2>
+    </div>
+
+    <section class="spad">
+    <div class="ourseviceclass">
+        <table>
+        <tr>
+            <th class="top-table" colspan="2";> Our Services</th>
+        </tr>
+        <div class="Subtitle">
+            <tr>
+            <th>Services</th>
+            <th>Detail</th>
+            </tr>
+        </div>
+        
+        <tr>
+            <td>Environmental Impact Assessments (EIA)</td>
+            <td>
+                <p>i.Initial environmental scoping</p>
+                <p>ii.Pollution impact studies</p>
+                <p>iii.Catchment management studies</p>
+                <p>iv.Ecological risk assessment</p>
+                <p>v.Health risk assessment</p>
+                <p>vi.Public consultation</p> 
+            </td>    
+        </tr>
+        <tr>
+            <td>Training Program</td>
+            <td>
+                <p>i.Metal precipitation&chemical reaction workshop</p>
+                <p>ii.Microbiology monitoring workshop</p>
+                <p>iii.Effective jar test</p>
+                <p>iv.Safe chemical spillage handling and PPE</p>
+                <p>v.Noise and hearing conservation</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Product</td>
+            <td>
+                <p>i.RS PRO AVM-01 Vane Anemometer, 45m/s Max, Measures Air Velocity</p>
+                <p>ii.9 in 1 Air Quality Monitor Indoor Outdoor PM2.5, PM1.0, PM10, HCHO, Detector Tester Temperature and Humidity Sensor</p>
+                <p>iii.MULTICOMP PRO MP780905 Sound Level Meter, USB Interface, 30 dB, 130 dB, 1.4 dB, 0.1 dB, 0 °C, 40 °C</p>
+                <p>iv.Underground water detector</p>
+                <p>v.Andres DTNVS-14-LWT40 Harder Gen3 2400 FOM Autogated White Phosphor Night Vision Binocular - Optics</p>
+                <p>vi.Core sampling kit</p>
+                <p>vii.Earth Augers TR 1551</p>
+            </td>
+        </tr>
+        </table>
+    </div>
+</body>
+
+</html>
